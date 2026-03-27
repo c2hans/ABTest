@@ -12,3 +12,11 @@ updates:
     labels:
       - "cleanup"
       - "dependabot"
+  
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+    labels:
+      - "cleanup"
+      - "dependabot"

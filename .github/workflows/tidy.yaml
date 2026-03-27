@@ -24,7 +24,7 @@ jobs:
         run: |
           "blabla" >> $GITHUB_OUTPUT
 
-      - name: actions/create-github-app-token@v2
+      - name: actions/create-github-app-token@v1
         id: app-token
         run: |
           "uffuff" >> $GITHUB_OUTPUT
